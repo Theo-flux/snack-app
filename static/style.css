@@ -1,0 +1,43 @@
+
+a {
+    text-decoration: none;
+    margin: 2em 0;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+}
+.btn {
+  padding: .5em 1em;
+  background-color: #000;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: #70e00030;
+  color: #006400;
+}
+
+.del-btn {
+  background-color: #dd000030;
+  color: #dd0000;
+}
+
+.new-btn {
+  background-color: #03045e20;
+  color: #03045e;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1em 0;
+}
+
+li a {
+  text-transform: capitalize;
+  font-weight: bold;
+}

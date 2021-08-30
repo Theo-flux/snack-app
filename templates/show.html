@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>snack name:<strong>{{ snack.name }}</strong></p>
+<p>snack kind: <strong>{{ snack.kind }}</strong></p>
+<a class="btn" href="{{ url_for('index') }}">See snack list</a>
+<a class="btn edit-btn" href="{{ url_for('update', id=snack.id) }}">Edit snack</a>
+<a class="btn del-btn" href="{{ url_for('delete', id=snack.id) }}">Delete snack</a>
+{% endblock %}
